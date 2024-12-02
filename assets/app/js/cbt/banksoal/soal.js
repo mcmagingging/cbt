@@ -178,7 +178,7 @@ $(document).ready(function() {
             '<i class="fa fa-trash"></i></button>' +
             '<span class="abjad-pg2"><b>Jawaban ' + alphaCaps + '</b></span></div>' +
             '       <div class="col-6 text-right d-flex justify-content-end">' +
-            '          <b>Jawaban banar</b>' +
+            '          <b>Jawaban benar</b>' +
             '          <input class="check-pg2" type="checkbox" style="width: 24px; height: 24px; margin-left: 8px;" name="jawaban_benar_pg2[]" value="'+lower+'">' +
             '       </div>' +
             '    </div>' +
@@ -717,7 +717,7 @@ function getSoalById(id_bank, number, id, jenis_soal) {
                                     '<i class="fa fa-trash"></i></button>' +
                                     '<span class="abjad-pg2"><b>Jawaban ' + k.toUpperCase() + '</b></span></div>' +
                                     '       <div class="col-6 text-right d-flex justify-content-end">' +
-                                    '          <b>Jawaban banar</b>' +
+                                    '          <b>Jawaban benar</b>' +
                                     '          <input class="check-pg2" type="checkbox" style="width: 24px; height: 24px; margin-left: 8px;" name="jawaban_benar_pg2[]" value="' + k + '" ' + checked + '>' +
                                     '       </div>' +
                                     '    </div>' +
@@ -732,7 +732,7 @@ function getSoalById(id_bank, number, id, jenis_soal) {
                                 '<i class="fa fa-trash"></i></button>' +
                                 '<span class="abjad-pg2"><b>Jawaban A</b></span></div>' +
                                 '       <div class="col-6 text-right d-flex justify-content-end">' +
-                                '          <b>Jawaban banar</b>' +
+                                '          <b>Jawaban benar</b>' +
                                 '          <input class="check-pg2" type="checkbox" style="width: 24px; height: 24px; margin-left: 8px;" name="jawaban_benar_pg2[]" value="a">' +
                                 '       </div>' +
                                 '    </div>' +
